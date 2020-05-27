@@ -9,7 +9,7 @@ namespace cwiczenie11.Models
     public class MediDbContext : DbContext
     {
 
-        public DbSet<Doctor> Doctors { get; set; }
+        public DbSet<Doctor> Doctor { get; set; }
         public DbSet<Patient> Patient { get; set; }
         public DbSet<Prescription> Prescription { get; set; }
         public DbSet<Medicament> Medicament { get; set; }
