@@ -28,7 +28,7 @@ namespace cwiczenie11
         {
             services.AddDbContext<MediDbContext>(options =>
             {
-                options.UseSqlServer("DataSource=db-mssql;Initial Catalog=s19562;Integrated Security=True");
+                options.UseSqlServer("Data Source=db-mssql;Initial Catalog=s19562;Integrated Security=True");
             });
                 services.AddControllers();
             }
